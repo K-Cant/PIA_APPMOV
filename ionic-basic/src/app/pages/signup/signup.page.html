@@ -1,0 +1,38 @@
+<ion-content [fullscreen]="true">
+  <div class="encabezado">
+    <ion-title class="titulo">BIENVENIDO</ion-title>
+    <p class="subtitulo">Registrarse para crear una cuenta</p>
+  </div>
+
+  <form>
+    <div class="ion-padding">
+      <ion-item>
+        <ion-input placeholder="Nombre" class="input"></ion-input>
+        <ion-icon name="person-outline"></ion-icon>
+      </ion-item>
+    </div>
+    <div class="ion-padding">
+      <ion-item>
+        <ion-input placeholder="Email" class="input"></ion-input>
+        <ion-icon name="person-outline"></ion-icon>
+      </ion-item>
+    </div>
+    <div class="ion-padding">
+      <ion-item>
+        <ion-input placeholder="Contraseña" class="input"></ion-input>
+        <ion-icon name="lock-closed-outline"></ion-icon>
+      </ion-item>
+
+      <div class="signinlink">
+        <p>¿Ya tienes cuenta? <a [routerLink] = "['/login']" style="color:blue">Inicia sesión aqui</a></p>
+      </div>
+
+    </div>
+    <ion-fab vertical="bottom" horizontal="end" style="margin-bottom: 30px" >
+      <ion-fab-button [routerLink] = "['/home']">
+        <ion-icon name="chevron-forward"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+
+  </form>
+</ion-content>
