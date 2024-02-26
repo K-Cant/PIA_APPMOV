@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "login-pia-b2e4d": {
+      "hosting": {
+        "app": [
+          "login-pia-b2e4d"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "login-pia-b2e4d"
+  }
+}

@@ -4,7 +4,7 @@
     <p class="subtitulo">Registrarse para crear una cuenta</p>
   </div>
 
-  <form>
+  <form [formGroup]="regForm" novalidate>
     <div class="ion-padding">
       <ion-item>
         <ion-input placeholder="Nombre" class="input"></ion-input>
